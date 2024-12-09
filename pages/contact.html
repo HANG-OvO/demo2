@@ -1,0 +1,106 @@
+<section id="contact">
+    <h1 class="mt-5 text-center">CONTACT</h1>
+    <div class="row py-lg-5">
+        <div class="row text-center contactContent" id="grid"></div>
+        <div class="row" id="form">
+            <p class="form-title">Write us</p>
+            <div class="form-floating col-md-4">
+                <select class="form-select" id="title" aria-label="Title">
+                    <option selected></option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mrs">Mrs</option>
+                    <option value="Miss">Miss</option>
+                </select>
+                <label for="title">Title</label>
+            </div>
+
+            <div class="form-floating col-md-4">
+                <input type="text" id="lastname" class="form-control" autocomplete="off" required placeholder="Last name">
+                <label for="lastname" class="form-label">*Last name</label>
+            </div>
+
+            <div class="form-floating col-md-4">
+                <input type="text" id="firstname" class="form-control" autocomplete="off" placeholder="First name">
+                <label for="firstname" class="form-label">*First name</label>
+            </div>
+
+            <div class="form-floating col-md-6">
+                <select class="form-select" id="country" aria-label="Country/Region">
+                    <option selected></option>
+                    <option value="AF">Afghanistan</option>
+                    <option value="AX">Åland Islands</option>
+                    <option value="AL">Albania</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="AS">American Samoa</option>
+                    <option value="AD">Andorra</option>
+                    <option value="AO">Angola</option>
+                    <option value="AQ">Antarctica</option>
+                    <option value="AG">Antigua and Barbuda</option>
+                    <option value="AR">Argentina</option>
+                    <option value="AM">Armenia</option>
+                    <option value="AW">Aruba</option>
+                    <option value="AU">Austraoptiona</option>
+                    <option value="AT">Austria</option>
+                    <option value="AZ">Azerbaijan</option>
+                </select>
+                <label for="country" class="form-label">Country / Region</label>
+            </div>
+            <div class="form-floating col-md-6">
+                <select class="form-select" id="language" aria-label="Language">
+                    <option selected></option>
+                    <option value="EN_US">Engoptionsh (United States)</option>
+                    <option value="FR">Français</option>
+                    <option value="IT">Itaoptionan</option>
+                    <option value="ES">Spanish</option>
+                    <option value="DE">German</option>
+                    <option value="JA">日本語</option>
+                    <option value="ZC">中文 - 廣東話</option>
+                    <option value="ZM">中文 – 普通话</option>
+                    <option value="KO">Korean</option>
+                    <option value="NL">Nederlands</option>
+                    <option value="AR">Arabic</option>
+                    <option value="PT">Portuguese</option>
+                    <option value="RU">Russian</option>
+                </select>
+                <label for="language" class="form-label">Language</label>
+            </div>
+
+            <div class="form-floating col-md-6 email-input">
+                <input type="text" id="email" class="form-control" autocomplete="off" placeholder="Email Address">
+                <label for="email" class="form-label">* Email Address</label>
+                <div class="invalid-feedback">Your email is not valid</div>
+            </div>
+            <div class="form-floating col-md-6">
+                <input type="text" id="telephone" class="form-control" placeholder="Telephone">
+                <label for="telephone" class="form-label">Telephone</label>
+            </div>
+
+            <div class="form-floating col-md-6">
+                <select class="form-select" id="subject" aria-label="Subject">
+                    <option selected></option>
+                    <option value="After sales support and care">After-sales service</option>
+                    <option value="Boutique information">Information on Dior boutiques</option>
+                    <option value="Careers">Careers</option>
+                    <option value="On-optionne store and website">Dior.com, onoptionne store and orders</option>
+                    <option value="Others">Others</option>
+                    <option value="Product Information">Product information</option>
+                    <option value="The House of Dior">The House of Dior</option>
+                </select>
+                <label for="subject" class="form-label">Subject</label>
+            </div>
+
+            <div class="form-floating">
+                <textarea class="form-control" style="height: 100px; resize: none" placeholder="Your Message" id="message"></textarea>
+                <label for="message">Your Message</label>
+                <p class="textarea-count"></p>
+            </div>
+
+            <div class="form-floating send">
+                <button type="button" class="btn btn-dark disabled">Send</button>
+                <div class="send-success">contactFormSuccess</div>
+            </div>
+
+        </div>
+    </div>
+</section>
+<script src="../assets/js/contact.js"></script>
