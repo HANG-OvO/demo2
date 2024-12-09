@@ -1,7 +1,7 @@
 $(function () {
 
     AOS.init();
-    setContent("contact")
+    setContent("main")
 
     $(window).on('scroll', function () {
         if ($(this).scrollTop() >= 50) {
