@@ -8,7 +8,7 @@ $(function () {
         {"title": "Paris", "desc": "62 rue du faubourg Saint-Honoré", "desc2": "Paris 75008", "phone": "T +33 (0)1 42 96 39 00", "email": "paris@arcticatelier.com"},
         {"title": "Monaco", "desc": "1 avenue Henri Dunant Palais de la Scala", "desc2": "Monaco 98000", "phone": "T +377 9797 5424", "email": "monaco@arcticatelier.com"},
         {"title": "Geneva", "desc": "Place de Longemalle 10-12, 1204 Geneva", "desc2": "Geneva", "phone": "T +41 (0)22 318 57 70", "email": "geneve@arcticatelier.com"},
-       
+
     ];
     var current = 0;
 
@@ -117,7 +117,7 @@ $(function () {
             }
             content += '<div class="col-md-4 col-lg-3 py-3 px-lg-4 '+ aos +'" data-aos="fade-up" data-aos-duration="2500">';
             content += '<a href="javascript:;">';
-            content += '<img class="img-fluid gallery_img ls-is-cached lazyloaded" src="/assets/images/middle/'+ index%8 +'.jpg"/>';
+            content += '<img class="img-fluid gallery_img ls-is-cached lazyloaded" src="./assets/images/middle/'+ index%8 +'.jpg"/>';
             content += '</a>';
             content += '<div class="py-3">';
             content += '<a href="javascript:;">';

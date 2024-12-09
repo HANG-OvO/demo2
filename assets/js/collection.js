@@ -23,7 +23,7 @@ $(function () {
             {"title": "Motion Warmth", "desc": "03 July - 31 August 2024", "city": "Julian Opie x Arctic Atelier"},
             {"title": "Floral Cocoon", "desc": "20 June - 31 August 2024", "city": "Takashi Murakami x Arctic Atelier"},
             {"title": "Figurations of the Light", "desc": "15 October - 14 November 2024", "city": "James Turrell x Arctic Atelier"},
-    
+
         ]
     };
     var archiveData = {
@@ -43,7 +43,7 @@ $(function () {
             {"title": "The Collector 1994", "desc": "20 September - 20 October 2024", "city": "Singapore"},
             {"title": "Paraísos", "desc": "12 September - 23 October 2024", "city": "Madrid"},
             {"title": "Timeless Expressions", "desc": "04 - 30 September 2024", "city": "Seoul"},
-        
+
         ]
     }
 
@@ -52,7 +52,7 @@ $(function () {
         $.each(topData, function(index, value) {
             content += '<div class="col-md-6 pb-md-5">';
             content += '<a href="javascript:;">';
-            content += '<img class="img-fluid size-photo-event w-100 ls-is-cached lazyloaded" src="/assets/images/large/'+ index%5 +'.jpg"/>';
+            content += '<img class="img-fluid size-photo-event w-100 ls-is-cached lazyloaded" src="./assets/images/large/'+ index%5 +'.jpg"/>';
             content += '</a>';
             content += '</div>';
             content += '<div class="col-md-6 pb-5 text-center">';
@@ -74,7 +74,7 @@ $(function () {
         $.each(upcomingData.data, function(index, value) {
             content += '<div class="col-md-3 pb-2">';
             content += '<a href="javascript:;">';
-            content += '<img class="img-fluid ls-is-cached lazyloaded" src="/assets/images/small/'+ index%10 +'.png"/>';
+            content += '<img class="img-fluid ls-is-cached lazyloaded" src="./assets/images/small/'+ index%10 +'.png"/>';
             content += '</a>';
             content += '<a href="javascript:;">';
             content += '<div class="py-2  d-block " style="color:#212529">'+ value.title +'</div>';
@@ -92,7 +92,7 @@ $(function () {
         $.each(pastData.data, function (index, value) {
             content += '<div class="col-md-3 pb-4">';
             content += '<a href="javascript:;">';
-            content += '<img class="img-fluid ls-is-cached lazyloaded" src="/assets/images/hautecouture/' + index % 10 + '.png"/>';
+            content += '<img class="img-fluid ls-is-cached lazyloaded" src="./assets/images/hautecouture/' + index % 10 + '.png"/>';
             content += '</a>';
             content += '<a href="javascript:;">';
             content += '<div class="py-2  d-block " style="color:#212529">' + value.title + '</div>';
